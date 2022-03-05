@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Parameter Practice">
+    <test name="Parameter Test">
+        <parameter name="Search" value="iphone 13 case"></parameter>
+
+        <classes>
+            <class name="com.test.etsy.test.TestSearch"></class>
+
+        </classes>
+    </test>
+</suite>
